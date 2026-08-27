@@ -46,4 +46,7 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
    ### On Mac/Linux:
    source venv/bin/activate
    ```
+   ```
+   pip install -r requirements.txt
+   ```
    
