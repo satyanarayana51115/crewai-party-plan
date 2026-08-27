@@ -1,10 +1,10 @@
-Multi-Agent Party Planner (Enchanted Forest Masquerade)
+# Multi-Agent Party Planner (Enchanted Forest Masquerade)
 
 An autonomous multi-agent AI system built using **CrewAI** that collaborates to conceptualize, schedule, and execute complex event experiences. The agents handle high-dimensional planning, including guest seating dynamics, chronological music architecture, and real-time execution flows.
 
---
+---
 
-🤖 Multi-Agent Architecture
+## 🤖 Multi-Agent Architecture
 
 The architecture delegates specialized event lifecycle tasks to dedicated AI agents:
 
@@ -15,7 +15,7 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
 
 ---
 
-✨ Key Features
+## ✨ Key Features
 
 * **Social Chemistry Seating Layout:** Dynamically pairs guest profiles (Socialites, Academics, Mystics) to optimize conversation flow and eliminate "dead spots."
 * **Phase-Based Audio Curation:** Dynamically scales audio profiles from 45 dB background ambient tracks to high-energy dance sets across time windows.
@@ -23,7 +23,7 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 * **Language:** Python 3.10+
 * **Framework:** CrewAI
@@ -32,11 +32,26 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
 
 ---
 
-🚀 Quick Start
+## 🚀 Quick Start
 
-1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone
 https://github.com/satyanarayana51115/crewai-party-plan.git
 cd crewai-party-plan
+```
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+# Past here your model api key
+OPENAI_API_KEY=your_openai_api_key
+# OR
+GEMINI_API_KEY=your_gemini_api_key
+python app.py
+
 
