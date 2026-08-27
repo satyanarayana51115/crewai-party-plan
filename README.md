@@ -40,7 +40,7 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
    https://github.com/satyanarayana51115/crewai-party-plan.git
    cd crewai-party-plan
    ```
-2. **Create and activate virtual environment**
+2. **Create and activate virtual environment:**
    ```
    python -m venv venv
    ```
