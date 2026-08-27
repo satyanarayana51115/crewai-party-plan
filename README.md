@@ -34,14 +34,8 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
 
 ## 🚀 Quick Start
 
-### 1. Clone the repository
-```bash
-git clone
-https://github.com/satyanarayana51115/crewai-party-plan.git
-cd crewai-party-plan
-```
-python -m venv venv
-### On Windows:
-venv\Scripts\activate
-### On Mac/Linux:
-source venv/bin/activate
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/satyanarayana51115/crewai-party-plan.git
+   cd crewai-party-plan
+   
