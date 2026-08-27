@@ -41,8 +41,12 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
    ```
    ```
    python -m venv venv
+   ```
+   ```
    On Windows:
    venv\Scripts\activate
+   ```
+   ```
    On Mac/Linux:
    source venv/bin/activate
    ```
