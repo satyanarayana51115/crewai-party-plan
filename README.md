@@ -38,4 +38,6 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
    ```bash
    git clone https://github.com/satyanarayana51115/crewai-party-plan.git
    cd crewai-party-plan
+
+   python -m venv venv
    
