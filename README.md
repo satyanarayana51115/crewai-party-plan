@@ -39,18 +39,15 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
 git clone
 https://github.com/satyanarayana51115/crewai-party-plan.git
 cd crewai-party-plan
-```
 python -m venv venv
-# On Windows:
+## On Windows:
 venv\Scripts\activate
-# On Mac/Linux:
+#$ On Mac/Linux:
 source venv/bin/activate
-
 pip install -r requirements.txt
-
-# Past here your model api key
+## Past here your model api key
 OPENAI_API_KEY=your_openai_api_key
-# OR
+## OR
 GEMINI_API_KEY=your_gemini_api_key
 python app.py
 
