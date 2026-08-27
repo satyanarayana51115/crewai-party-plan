@@ -49,4 +49,10 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
    ```
    pip install -r requirements.txt
    ```
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+   ```
+   python app.py
+   ```
    
