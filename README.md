@@ -63,4 +63,18 @@ The architecture delegates specialized event lifecycle tasks to dedicated AI age
    ```
    python app.py
    ```
+---
+
+## 🔁 Multi-Agent Workflow
+
+```mermaid
+graph TD
+    A[Event Theme & Requirements] --> B[Entertainment Coordinator - Raju]
+    B -->|Seating & Guest Dynamics| C[Music & Audio Architect]
+    C -->|Audio Curation & Ambient Sets| D[Logistics & Timeline Specialist]
+    D -->|Zone Timelines & Flow-Sheets| E[Event Operations Agent]
+    E --> F[Comprehensive Party Execution Plan]
+```
+## 👨‍💻 Author
+**Satyanarayana** - [@satyanarayana51115](https://github.com/satyanarayana51115)
    
